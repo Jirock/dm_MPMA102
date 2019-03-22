@@ -8,7 +8,7 @@ def factorielle(n):
     :param n: entier naturel
     :return: factorielle de n
     """
-    if n == 1:
+    if n == 0:
         return n
     else:
         return n * factorielle(n - 1)
