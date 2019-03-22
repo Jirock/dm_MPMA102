@@ -9,7 +9,7 @@ def factorielle(n):
     :return: factorielle de n
     """
     if n == 0:
-        return n
+        return 1
     else:
         return n * factorielle(n - 1)
 
